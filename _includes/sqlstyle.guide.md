@@ -332,7 +332,7 @@ Indent column definitions by four (4) spaces within the `CREATE` definition.
 
 * The default value must be the same type as the column—if a column is declared
   a `DECIMAL` do not provide an `INTEGER` default value.
-* Default values must follow the data type declaration and come before any
+* Default values must follow the data type declaration and come **after** any
   `NOT NULL` statement.
 
 ### Constraints and keys
